@@ -1,10 +1,8 @@
-
-
- const fs = require('fs');
-var RemObjectsElements = require("./Bin/Debug/WebAssembly/wasm32/RemObjectsElements");
-var CompileTest = require("./Bin/Debug/WebAssembly/wasm32/CompileTest");
+const fs = require('fs');
+var RemObjectsElements = require("./Bin/Debug/WebAssembly/wasm32/CompileTest");
+var CompileTest = require("./Bin/Debug/WebAssembly/wasm32/CompileTest").CompileTest;
 var path = require("path");
-var source = fs.readFileSync('./Bin/Debug/WebAssembly/wasm32/CompileTest.wasm');
+var source = fs.readFileSync("./Bin/Debug/WebAssembly/wasm32/CompileTest.wasm");
 
 
 

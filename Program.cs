@@ -20,9 +20,9 @@
 		public short Short { get; } = 8;
 		public ushort UShort { get; } = 9;
 
-		public object Object { get; } = new Program();
+		public object Object { get; } = new ElementsClass();
 		public string String { get; } = "test string";
-		public dynamic Dynamic { get; } = new Program();
+		public dynamic Dynamic { get; } = new ElementsClass();
 
 		public DateTime DateTime { get; } = DateTime.UtcNow;
 		public Dictionary<string, int> Dictionary { get; } = new Dictionary<string,int>() {{"one", 1}, {"two", 2}, {"two", 3}};
