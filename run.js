@@ -23,10 +23,10 @@ CompileTest.instantiate((source)).then(function (result) {
             
             console.log(program.Int);
             console.log(program.UInt);
+            console.log(program.NInt);
             console.log(program.NUInt);
             
             /*
-            console.log(program.NUInt);
             console.log(program.Long);
             console.log(program.ULong);
             console.log(program.Short);
