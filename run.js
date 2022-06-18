@@ -15,12 +15,17 @@ CompileTest.instantiate((source)).then(function (result) {
             console.log(program.Byte);
             console.log(program.SByte);
             console.log(program.Char);
-            console.log(program.Decimal);
-            console.log(program.Double);
-            console.log(program.Float);
+
+            // crashes
+            //console.log(program.Decimal);
+            //console.log(program.Double);
+            //console.log(program.Float);
+            
             console.log(program.Int);
             console.log(program.UInt);
-            console.log(program.Nint);
+            console.log(program.NUInt);
+            
+            /*
             console.log(program.NUInt);
             console.log(program.Long);
             console.log(program.ULong);
@@ -32,5 +37,6 @@ CompileTest.instantiate((source)).then(function (result) {
             console.log(program.Dynamic);
 
             console.log(program.DateTime);
-            console.log(program.Dictionary);
+            console.log(program.Dictionary); 
+            */
 		});
