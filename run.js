@@ -4,7 +4,7 @@ var CompileTest = require("./Bin/Debug/WebAssembly/wasm32/CompileTest").CompileT
 var path = require("path");
 var source = fs.readFileSync("./Bin/Debug/WebAssembly/wasm32/CompileTest.wasm");
 
-
+// uncommenting those logs below causes crashes 
 
 CompileTest.instantiate((source)).then(function (result) {
 			console.log("WebAssembly file CompileTest.wasm has been loaded.");
